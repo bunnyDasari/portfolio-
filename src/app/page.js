@@ -1,23 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { PinContainer } from "../components/ui/3d-pin";
-import { MenuItem } from "@/components/ui/navbar-menu";
-import AuroraBackgroundDemo from "@/components/example/aurora-background-demo";
-import NavbarDemo from "@/components/example/navbar-menu-demo";
-import HeroParallaxDemo from "@/components/example/hero-parallax-demo";
 import "./index.css"
 import FloatingDockDemo from "@/components/example/floating-dock-demo";
-import TimelineDemo from "@/components/example/timeline-demo";
-import Navbar from "./navbar,";
-import LampDemo from "@/components/example/lamp-demo";
-import { Lamp } from "lucide-react";
 import BackgroundLinesDemo from "@/components/example/background-lines-demo";
-import SparklesPreview from "@/components/example/sparkles-demo";
 import { SparklesCore } from "../components/ui/sparkles";
-import SignupFormDemo from "@/components/example/signup-form-demo";
-import CardDemo from "@/components/blocks/cards-demo-1";
-import CardSpotlightDemo from "@/components/example/card-spotlight-demo";
 import { CardSpotlight } from "../components/ui/card-spotlight";
+import Image from "next/image";
 export default function AnimatedPinDemo() {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -71,7 +60,7 @@ export default function AnimatedPinDemo() {
                 digital health card that securely stores your medical records, enabling easy access to your health data anytime, anywhere.
               </span>
             </div>
-            <img src="https://c8.alamy.com/comp/2PWX743/conceptual-caption-healthcare-smart-card-conceptual-photo-a-card-that-has-basics-of-a-patient-s-is-health-records-2PWX743.jpg" className="flex flex-1 w-full rounded-lg mt-4 " />
+            <img src="https://c8.alamy.com/comp/2PWX743/conceptual-caption-healthcare-smart-card-conceptual-photo-a-card-that-has-basics-of-a-patient-s-is-health-records-2PWX743.jpg" className="flex flex-1 w-full rounded-lg mt-4 width-auto" />
           </div>
         </PinContainer>
         <PinContainer title="YouTube Clone" href="https://ytclonebunny.ccbp.tech/login">
