@@ -6,7 +6,7 @@ import FloatingDockDemo from "@/components/example/floating-dock-demo";
 import BackgroundLinesDemo from "@/components/example/background-lines-demo";
 import { SparklesCore } from "../components/ui/sparkles";
 import { CardSpotlight } from "../components/ui/card-spotlight";
-import Image from "next/image";
+
 export default function AnimatedPinDemo() {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -15,7 +15,6 @@ export default function AnimatedPinDemo() {
   }, []);
   return (
     <div className="bg">
-
       <BackgroundLinesDemo />
       (<div
         className="h-[10rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
