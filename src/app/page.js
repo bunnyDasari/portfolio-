@@ -6,6 +6,7 @@ import FloatingDockDemo from "@/components/example/floating-dock-demo";
 import BackgroundLinesDemo from "@/components/example/background-lines-demo";
 import { SparklesCore } from "../components/ui/sparkles";
 import { CardSpotlight } from "../components/ui/card-spotlight";
+import Image from "next/image";
 
 export default function AnimatedPinDemo() {
   const [isMounted, setIsMounted] = useState(false);
@@ -59,7 +60,7 @@ export default function AnimatedPinDemo() {
                 digital health card that securely stores your medical records, enabling easy access to your health data anytime, anywhere.
               </span>
             </div>
-            <img src="https://c8.alamy.com/comp/2PWX743/conceptual-caption-healthcare-smart-card-conceptual-photo-a-card-that-has-basics-of-a-patient-s-is-health-records-2PWX743.jpg" className="flex flex-1 w-full rounded-lg mt-4 width-auto" />
+            <Image src="https://c8.alamy.com/comp/2PWX743/conceptual-caption-healthcare-smart-card-conceptual-photo-a-card-that-has-basics-of-a-patient-s-is-health-records-2PWX743.jpg" className="flex flex-1 w-full rounded-lg mt-4 width-auto" alt="description" width={500} height={500}/>
           </div>
         </PinContainer>
         <PinContainer title="YouTube Clone" href="https://ytclonebunny.ccbp.tech/login">
@@ -73,7 +74,7 @@ export default function AnimatedPinDemo() {
                 Enjoy seamless video playback Perfect for content creators and viewers alike!.
               </span>
             </div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_4N37TIgWC_QLpspNwGddZH8DhzljeYMFnA&s" className="flex flex-1 w-full rounded-lg mt-4 " />
+            <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_4N37TIgWC_QLpspNwGddZH8DhzljeYMFnA&s" className="flex flex-1 w-full rounded-lg mt-4 " alt="description" width={500} height={500}/>
           </div>
         </PinContainer>
         <PinContainer title="Jobby app" href="https://jobwebapptech.ccbp.tech/login">
@@ -87,7 +88,7 @@ export default function AnimatedPinDemo() {
                 Browse thousands of job listings, customize your profile, and submit applications directly to company.
               </span>
             </div>
-            <img src="https://themewagon.com/wp-content/uploads/2020/05/jobboard-1.jpg" className="flex flex-1 w-full rounded-lg mt-4 " />
+            <Image src="https://themewagon.com/wp-content/uploads/2020/05/jobboard-1.jpg" className="flex flex-1 w-full rounded-lg mt-4 " alt="description" width={500} height={500}/>
           </div>
         </PinContainer>
 
